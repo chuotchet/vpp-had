@@ -1,12 +1,11 @@
 var models = require("./models");
 
 
-var data = {
-  link: 'dfd.html',
-  name: 'dd'
+var catData = {
+  name: 'Văn Phòng Phẩm'
 }
 models.sequelize.sync();
-models.Cat.create(data);
+models.Cat.createData(data);
 models.Cat.findAll().then(cat => {
   console.log(cat);
 });

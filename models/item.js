@@ -43,5 +43,10 @@ module.exports = function(sequelize, DataTypes) {
     },
     tableName: 'Item'
   });
+  Item.createData = function(item){
+    var url = changeAlias(item.name) + ' ' + Math.round(Math.random()*10000);
+    item.link = item.split(' ').join('-');
+    SubCat.create(item);
+  }
   return Item;
 };
