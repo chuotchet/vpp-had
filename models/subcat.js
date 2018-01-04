@@ -30,11 +30,15 @@ module.exports = function(sequelize, DataTypes) {
     },
     tableName: 'SubCat'
   });
-  SubCat.createData = function(cat){
+  SubCat.createData = function(cat, cb){
     var url = changeAlias(cat.name) + ' ' + Math.round(Math.random()*10000);
-    cat.link = url.split(' ').join('-');
-    SubCat.create(cat);
+    cat.link = url.split(' ').join('-').replace(/,/g,'');
+    SubCat.create(cat).then(function(){cb()});
   }
+
+  // SubCat.associate: function(models){
+  //   SubCat.hasMany(models.Item, {through: 'SubCatDevices'});
+  // }
   return SubCat;
 };
 

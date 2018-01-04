@@ -14,10 +14,10 @@ module.exports = function(sequelize, DataTypes) {
     tableName: 'Cat'
   });
 
-  Cat.createData = function(cat){
+  Cat.createData = function(cat,cb){
     var url = changeAlias(cat.name) + ' ' + Math.round(Math.random()*10000);
     cat.link = url.split(' ').join('-');
-    Cat.create(cat);
+    Cat.create(cat).then(function(){cb()});;
   }
   return Cat;
 };
