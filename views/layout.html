@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="myApp">
 
   <head>
 
@@ -22,7 +22,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="/">Văn phòng phẩm Hoa Anh Đào</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,11 +54,14 @@
 
         <div class="col-lg-3">
 
-          <h1 class="my-4">Shop Name</h1>
-          <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
+          <h1 class="my-4">Danh mục</h1>
+          <div class="list-group" ng-controller="Test">
+            <div ng-repeat="cat in menu">
+              <a href="/{{cat.link}}" style="background-color: #f2c1e1;text-align: center;" class="list-group-item"><b>{{cat.name}}</b></a>
+              <div ng-repeat="subCat in cat.sub">
+                <a href="/{{subCat.link}}" style="height: 30px; padding: 5px 15px;" class="list-group-item">🌸 {{subCat.name}}</a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -89,6 +92,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="javascripts/angular.min.js"></script>
+    <script src="angular/main.js"></script>
 
   </body>
 
