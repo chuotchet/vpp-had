@@ -55,12 +55,13 @@
         <div class="col-lg-3">
 
           <h1 class="my-4">Danh mục</h1>
-          <div class="list-group" ng-controller="Test">
+          <div class="list-group" ng-controller="Layout">
             <div ng-repeat="cat in menu">
               <a href="/{{cat.link}}" style="background-color: #f2c1e1;text-align: center;" class="list-group-item"><b>{{cat.name}}</b></a>
               <div ng-repeat="subCat in cat.sub">
                 <a href="/{{subCat.link}}" style="height: 30px; padding: 5px 15px;" class="list-group-item">🌸 {{subCat.name}}</a>
               </div>
+              <br />
             </div>
           </div>
 

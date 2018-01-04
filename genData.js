@@ -168,6 +168,6 @@ var addSub = function(i) {
 //   console.log(cat);
 // });
 
-models.SubCat.findAll().then(cat => {
-  console.log(cat);
-});
+// models.SubCat.findAll().then(cat => {
+//   console.log(cat);
+// });

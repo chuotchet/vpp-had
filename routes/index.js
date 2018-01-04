@@ -1,6 +1,8 @@
 var express = require('express');
 var models = require('../models');
 var router = express.Router();
+var Sequelize = models.sequelize;
+const Op = Sequelize.Op;
 
 var getCatnSub = function(){
   var data = [];
@@ -33,25 +35,22 @@ router.get('/items', function(req, res, next) {
 
 //return list of cat and sub cat
 router.get('/catnsub', function(req, res){
-  // var data = [];
-  // models.Cat.findAll().then(cats => {
-  //   cats.forEach(cat => {
-  //     var subData = [];
-  //     models.SubCat.findAll({where : {catId: cat.id}}).then(subCats => {
-  //       subCats.forEach(subCat => {
-  //         subData.push({name: subCat.name, link: subCat.link});
-  //         // console.log(subData);
-  //       });
-  //     });
-  //     data.push({name: cat.name, link: cat.link, sub: subData});
-  //     console.log(data);
-  //   });
-  // });
-  // console.log(data);
-  // res.json({catnsub: data});
   getCatnSub().then(function(data){
     console.log(data);
     res.json({catnsub: data});
+  });
+});
+
+router.get('/homitem', function(req, res){
+  console.log('aaaaaaa');
+  models.Item.findAll({
+    limit:20,
+    order:[Sequelize.fn( 'RANDOM' )],
+    where: {
+      [Op.or]: [{subCatId: 1}, {subCatId: 2}, {subCatId: 3},{subCatId: 4}]
+    }
+  }).then(items => {
+    res.json({homitem: items})
   });
 });
 
