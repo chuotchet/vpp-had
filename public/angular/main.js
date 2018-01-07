@@ -15,7 +15,7 @@ myApp.controller('Home',function($http,$scope,$rootScope){
 });
 
 myApp.controller('Cat',function($http,$scope,$rootScope){
-  var url = window.location.href.replace('#','').split('/').pop();
+  var url = window.location.href.split('#')[0].split('/').pop();
   $http.get('/1s/'+url).then(function(result){
     console.log(result.data);
     $scope.items = result.data.item;
