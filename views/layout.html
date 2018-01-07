@@ -10,10 +10,10 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="stylesheets/shop-homepage.css" rel="stylesheet">
+    <link href="/stylesheets/shop-homepage.css" rel="stylesheet">
 
   </head>
 
@@ -57,9 +57,9 @@
           <h1 class="my-4">Danh mục</h1>
           <div class="list-group" ng-controller="Layout">
             <div ng-repeat="cat in menu">
-              <a href="/{{cat.link}}" style="background-color: #f2c1e1;text-align: center;" class="list-group-item"><b>{{cat.name}}</b></a>
+              <a href="#" style="background-color: #f2c1e1;text-align: center;" class="list-group-item"><b>{{cat.name}}</b></a>
               <div ng-repeat="subCat in cat.sub">
-                <a href="/{{subCat.link}}" style="height: 30px; padding: 5px 15px;" class="list-group-item">🌸 {{subCat.name}}</a>
+                <a href="/1/{{subCat.link}}" style="height: 30px; padding: 5px 15px;" class="list-group-item">🌸 {{subCat.name}}</a>
               </div>
               <br />
             </div>
@@ -96,10 +96,10 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="javascripts/angular.min.js"></script>
-    <script src="angular/main.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascripts/angular.min.js"></script>
+    <script src="/angular/main.js"></script>
 
   </body>
 

@@ -13,3 +13,12 @@ myApp.controller('Home',function($http,$scope,$rootScope){
     $scope.items = result.data.homitem;
   });
 });
+
+myApp.controller('Cat',function($http,$scope,$rootScope){
+  var url = window.location.href.replace('#','').split('/').pop();
+  $http.get('/1s/'+url).then(function(result){
+    console.log(result.data);
+    $scope.items = result.data.item;
+    $scope.tit = result.data.catName;
+  });
+});

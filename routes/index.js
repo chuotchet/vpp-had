@@ -54,4 +54,16 @@ router.get('/homitem', function(req, res){
   });
 });
 
+router.get('/1/:cat', function(req, res, next) {
+  res.render('cat');
+});
+
+router.get('/1s/:cat', function(req, res, next) {
+  models.SubCat.findAll({where:{link: req.params.cat}}).then(cat => {
+    models.Item.findAll({where:{subCatId: cat[0].id}}).then(item => {
+      res.json({catName: cat[0].name, item:item});
+    });
+  });
+});
+
 module.exports = router;
