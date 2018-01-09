@@ -39,12 +39,13 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
+
     <div class="row">
       <!-- <div ng-repeat="item in items"> -->
         <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6 item" ng-repeat="item in items">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#" ng-show="item.img==none"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#" ng-show="item.img!=none"><img class="card-img-top" src="/images/{{item.img}}" alt=""></a>
             <div class="card-body">
               <a href="#"><b>{{item.name}}</b></a>
               <p>Giá: Liên hệ</p>
