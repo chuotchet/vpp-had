@@ -246,558 +246,532 @@ var itemData = [
     subCatId: 5
   },
 
-  { img: 'none',
+  { img: 'vpp/hs/100trangbiacung.jpg',
     name: 'Vở 96 trang',
     subCatId: 6
   },
-  { img: 'none',
+  { img: 'vpp/hs/vibook.jpg',
     name: 'Vở 200 trang',
     subCatId: 6
   },
-  { img: 'none',
+  { img: 'vpp/hs/butthienlong.jpg',
     name: 'Bút Thiên Long',
     subCatId: 6
   },
-  { img: 'none',
+  { img: 'vpp/hs/tay.jpg',
     name: 'Gôm tẩy',
     subCatId: 6
   },
 
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN.jpg',
     name: 'Bảng ghim có chân di động',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/bangxoay.jpg',
     name: 'Bảng xoay',
     subCatId: 7
   },
-  { img: 'none',
-    name: 'Bảng trang viết lông',
+  { img: 'vpp/bang/bangtrangvietlong.jpg',
+    name: 'Bảng trắng viết lông',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN04.jpg',
     name: 'Bảng từ trắng',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN02.jpg',
     name: 'Bảng phấn',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN08.jpg',
     name: 'Nam châm',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN05.jpg',
     name: 'Đồ bôi bảng có nam châm',
     subCatId: 7
   },
-  { img: 'none',
+  { img: 'vpp/bang/BANGGHIMCOCHAN06.jpg',
     name: 'Đồ bôi bảng không nam châm',
     subCatId: 7
   },
 
-  { img: 'none',
+  { img: 'vpp/dau/DAUNGAYTHANG01.jpg',
     name: 'Dấu ngày tháng tự động',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/DAUNGAYTHANG02.jpg',
     name: 'Máy đóng 8 số Shiny N38 (5mm)',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/R532.jpg',
     name: 'Dấu tự động R 532',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s842.jpg',
     name: 'Dấu tự động S842',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84201.jpg',
     name: 'Mực Lion Indelible Ink MC-55',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84202.jpg',
     name: 'Shiny Printer R-524D',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84203.jpg',
     name: 'Shiny S-1000 Die Plate Dater Stamp',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84204.jpg',
     name: 'Dấu 6 Số Siêu Bền Max N-607',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84207.jpg',
     name: 'Dấu Ngày Tháng 4mm',
     subCatId: 8
   },
-  { img: 'none',
+  { img: 'vpp/dau/s84208.jpg',
     name: 'Dấu Mã Số Thuế 18mm',
     subCatId: 8
   },
 
-  { img: 'none',
+  { img: 'vpp/bkeo/vpp/bkeo/',
     name: 'Băng keo màu',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/bangkeosilili.jpg',
     name: 'Băng keo Simili',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/bangkeonano.jpg',
     name: 'Băng keo điện nano',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/BANGKEOVAI.jpg',
     name: 'Băng keo vải',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/BANGKEOgiay.jpg',
     name: 'Băng keo giấy',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/BANGKEotrong.jpg',
     name: 'Băng keo trong',
     subCatId: 9
   },
-  { img: 'none',
+  { img: 'vpp/bkeo/BANGKEODUC.jpg',
     name: 'Băng keo đục',
     subCatId: 9
   },
 
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO.jpg',
     name: 'Bấm lỗ',
     subCatId: 10
   },
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO03.jpg',
     name: 'Bấm kim số 10',
     subCatId: 10
   },
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO05.jpg',
     name: 'Bấm lỗ 20 tờ Deli',
     subCatId: 10
   },
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO04.jpg',
     name: 'Bấm kim cỡ đại',
     subCatId: 10
   },
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO06.jpg',
     name: 'Máy bấm 4 lỗ',
     subCatId: 10
   },
-  { img: 'none',
+  { img: 'vpp/bamlo/BAMLO01.jpg',
     name: 'Bấm sô 3',
     subCatId: 10
   },
 
-  { img: 'none',
+  { img: 'vpp/sosach/GIAYGIOITHIEU.jpg',
     name: 'Giấy giới thiệu',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/HOADONBANLE.jpg',
     name: 'Hóa đơn bán lẻ 1 liên',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/HOADONBANLE2LIEN.jpg',
     name: 'Hóa đơn bán lẻ 2 liên',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI.jpg',
     name: 'Sổ công văn',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI01.jpg',
     name: 'Biên Nhận 1 Liên Trắng',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI02.jpg',
     name: 'Giấy Tạm Ứng',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI04.jpg',
     name: 'Giấy Giới Thiệu 1 Liên Trắng Dày',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI05.jpg',
     name: 'Phiếu Nhập Kho 3 Liên',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI06.jpg',
     name: 'Phiếu Xuất Kho 3 Liên',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI07.jpg',
     name: 'Hóa Đơn 3 Liên',
     subCatId: 11
   },
-  { img: 'none',
+  { img: 'vpp/sosach/SOCONGVANDI08.jpg',
     name: 'Phiếu Xuất Kho 2 Liên Khổ A5',
     subCatId: 11
   },
 
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc01.jpg',
     name: 'Thước Kim Nguyên',
     subCatId: 12
   },
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc02.jpg',
     name: 'Thước Parabol 1 Winq',
     subCatId: 12
   },
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc05.jpg',
     name: 'Thước bộ WinQ T140',
     subCatId: 12
   },
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc07.jpg',
     name: 'Thước Dẻo Winq 15 cm',
     subCatId: 12
   },
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc08.jpg',
     name: 'Thước Dẻo Winq 20 cm',
     subCatId: 12
   },
-  { img: 'none',
+  { img: 'vpp/thuoc/thuoc09.jpg',
     name: 'Bộ Thước Êke',
     subCatId: 12
   },
 
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI01.jpg',
     name: 'Dây đai - 01',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI02.jpg',
     name: 'Dây đai - 02',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI03.jpg',
     name: 'Dây đai - 03',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI04.jpg',
     name: 'Dây đai - 04',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI05.jpg',
     name: 'Dây đai - 05',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI06.jpg',
     name: 'Dây đai - 06',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI07.jpg',
     name: 'Dây đai - 07',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI08.jpg',
     name: 'Dây đai - 08',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI09.jpg',
     name: 'Dây đai - 09',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI010.jpg',
     name: 'Dây đai - 10',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI011.jpg',
     name: 'Dây đai - 11',
     subCatId: 13
   },
-  { img: 'none',
+  { img: 'vpp/dai/DAYDAI012.jpg',
     name: 'Dây đai - 12',
     subCatId: 13
   },
 
-  { img: 'none',
+  { img: 'vpp/pe/CUONPE01.jpg',
     name: 'PE cuộn 20kg',
     subCatId: 14
   },
-  { img: 'none',
+  { img: 'vpp/pe/CUONPE03.jpg',
     name: 'PE cuộn 50kg',
     subCatId: 14
   },
-  { img: 'none',
+  { img: 'vpp/pe/CUONPE02.jpg',
     name: 'PE cuộn 10kg',
     subCatId: 14
   },
 
-  { img: 'none',
+  { img: 'vpp/fim/FimFaxBrother202.jpg',
     name: 'Film Fax Brother',
     subCatId: 15
   },
-  { img: 'none',
+  { img: 'vpp/fim/FIMFAXPANASONIC52.jpg',
     name: 'Film fax Panasonic',
     subCatId: 15
   },
-  { img: 'none',
+  { img: 'vpp/fim/RUBANFULLMAK03.jpg',
     name: 'Film fax Sharp',
     subCatId: 15
   },
 
-  { img: 'none',
+  { img: 'thietbi/mayin/MAYINCANON2900.jpg',
     name: 'Máy in Canon 2900',
     subCatId: 16
   },
-  { img: 'none',
+  { img: 'thietbi/mayin/okiml.jpg',
     name: 'Máy in kim OKI ',
     subCatId: 16
   },
-  { img: 'none',
+  { img: 'thietbi/mayin/EpsonPrinterLQ300.jpg',
     name: 'Máy in Epson Printer LQ 300+II (300 cps)',
     subCatId: 16
   },
-  { img: 'none',
+  { img: 'thietbi/mayin/HL-1111LaserBrother.jpg',
     name: 'HL-1111 Máy in Laser Brother',
     subCatId: 16
   },
-  { img: 'none',
+  { img: 'thietbi/mayin/LaserJetProP1102W.jpg',
     name: 'Máy in HP LaserJet Pro P1102W',
     subCatId: 16
   },
-  { img: 'none',
+  { img: 'thietbi/mayin/HPLaserJetProP2035.jpg',
     name: 'Máy in HP LaserJet Pro P2035',
     subCatId: 16
   },
 
-  { img: 'none',
+  { img: 'thietbi/fax/PANASONICKX-FP701.jpg',
     name: 'Máy Fax PANASONIC KX-FP 701',
     subCatId: 17
   },
-  { img: 'none',
+  { img: 'thietbi/fax/SharpUX-7301.jpg',
     name: 'Máy Fax Panasonic KX-FT987CX',
     subCatId: 17
   },
-  { img: 'none',
+  { img: 'thietbi/fax/CanonB-820.jpg',
     name: 'Máy Fax nhiệt Canon B-820',
     subCatId: 17
   },
-  { img: 'none',
+  { img: 'thietbi/fax/SharpUX-7306.jpg',
     name: 'Máy Fax Panasonic KX-MB772',
     subCatId: 17
   },
 
-  { img: 'none',
-    name: 'Máy huỷ tài liệu Silicon PS-620C',
-    subCatId: 18
-  },
-  { img: 'none',
-    name: 'Máy huỷ tài liệu Silicon PS-812C',
-    subCatId: 18
-  },
-  { img: 'none',
-    name: 'Máy huỷ công nghiệp Silicon PS-526C',
-    subCatId: 18
-  },
-
-  { img: 'none',
-    name: 'Máy ép plastic DSB So-good 330-LCD',
-    subCatId: 19
-  },
-  { img: 'none',
-    name: 'Máy ép plastic DSB So-good 235-TP',
-    subCatId: 19
-  },
-  { img: 'none',
-    name: 'Máy ép plastic ABC Office HeatSeal H525',
-    subCatId: 19
-  },
-
-  { img: 'none',
+  { img: 'thietbi/scan/MAYSCAN07.jpg',
     name: 'Canon Scanner 5600F',
     subCatId: 20
   },
-  { img: 'none',
+  { img: 'thietbi/scan/MAYSCAN05.jpg',
     name: 'L2734A Máy quét HP Scanjet 200 Flatbed Photo Scanner',
     subCatId: 20
   },
-  { img: 'none',
+  { img: 'thietbi/scan/MAYSCAN010.jpg',
     name: 'HP Scanner Scanjet 3000 S2',
     subCatId: 20
   },
-  { img: 'none',
+  { img: 'thietbi/scan/MAYSCAN09.jpg',
     name: 'Epson Scanner V330',
     subCatId: 20
   },
 
-  { img: 'none',
+  { img: 'thietbi/cham/GIAY2200A.jpg',
     name: 'Máy châm công thẻ giấy 2200A',
     subCatId: 21
   },
-  { img: 'none',
+  { img: 'thietbi/cham/MAYCHAMCONG01.jpg',
     name: 'Máy Chấm Công Vân Tay thẻ cảm ứng Ronald jack X628-C',
     subCatId: 21
   },
-  { img: 'none',
+  { img: 'thietbi/cham/inkim7600.jpg',
     name: 'Máy chấm công in kim 7600',
     subCatId: 21
   },
-  { img: 'none',
+  { img: 'thietbi/cham/160.jpg',
     name: 'Máy chấm công vân tay 160',
     subCatId: 21
   },
 
-  { img: 'none',
+  { img: 'thietbi/muc/laserHPCE278A.jpg',
     name: 'Mực in laser HP CE278A | HP 78A | Mực máy in HP P1606 | P1566 | M1536DNF',
     subCatId: 22
   },
-  { img: 'none',
+  { img: 'thietbi/muc/HPCF283A.jpg',
     name: 'Mực HP CF283A',
     subCatId: 22
   },
-  { img: 'none',
+  { img: 'thietbi/muc/CanonCartridge418Y.jpg',
     name: 'Mực in laser màu Canon Cartridge 418Y Vàng',
     subCatId: 22
   },
-  { img: 'none',
+  { img: 'thietbi/muc/CanonCartridge323Y.jpg',
     name: 'Mực in laser màu Canon Cartridge 323Y Vàng',
     subCatId: 22
   },
 
-  { img: 'none',
+  { img: 'tap/giayvs/KHANGIAYANAN01.jpg',
     name: 'Khăn Giấy Đa Năng AnAn',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/KHANGIAYANAN03.jpg',
     name: 'Giấy vệ sinh AnAn',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/GIAYSAIGON01.jpg',
     name: 'Khăn Ăn Saigon Eco 30',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/GIAYSAIGON02.jpg',
     name: 'Giấy hộp',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/GIAYPUPY05.jpg',
     name: 'Khăn Giấy Lụa Pulppy',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/GIAYPUPY07.jpg',
     name: 'Giấy Lụa Hộp Pulppy',
     subCatId: 23
   },
-  { img: 'none',
+  { img: 'tap/giayvs/GIAYPUPY010.jpg',
     name: 'Giấy Vệ Sinh Pulppy',
     subCatId: 23
   },
 
-  { img: 'none',
+  { img: 'tap/vim/VIM01.jpg',
     name: 'VIM đậm đặc 900ml',
     subCatId: 24
   },
-  { img: 'none',
+  { img: 'tap/vim/VIM02.jpg',
     name: 'VIM đậm đặc 500ml',
     subCatId: 24
   },
-  { img: 'none',
+  { img: 'tap/vim/VIM03.jpg',
     name: 'VIM hương thông xanh 500ml',
     subCatId: 24
   },
-  { img: 'none',
+  { img: 'tap/vim/DUCK02.jpg',
     name: 'Nước Tẩy Rửa Toilet Duck Nhựa Thông 500ml',
     subCatId: 24
   },
-  { img: 'none',
+  { img: 'tap/vim/DUCK03.jpg',
     name: 'Tẩy Nhà Tắm Duck Tím 500ml',
     subCatId: 24
   },
-  { img: 'none',
+  { img: 'tap/vim/DUCK01.jpg',
     name: 'Nước tẩy Duck',
     subCatId: 24
   },
 
-  { img: 'none',
+  { img: 'tap/san/SUNLY02.jpg',
     name: 'Nước lau sàn Sunlight bạc hà 1L',
     subCatId: 25
   },
-  { img: 'none',
+  { img: 'tap/san/SUNLY03.jpg',
     name: 'Nước lau sàn sunlight hoa hạ 1L',
     subCatId: 25
   },
-  { img: 'none',
+  { img: 'tap/san/SUNLY06.jpg',
     name: 'Nước lau sàn sunlight hoa hạ 4kg',
     subCatId: 25
   },
 
-  { img: 'none',
+  { img: 'tap/san/gift.jpg',
     name: 'Nước xịt kính Gift',
     subCatId: 26
   },
-  { img: 'none',
-    name: 'Nước xịt kính Cift',
+  { img: 'tap/san/cif.jpg',
+    name: 'Nước xịt kính Cif',
     subCatId: 26
   },
 
-  { img: 'none',
+  { img: 'tap/choi/14595866065308.jpg',
     name: 'Chổi cỏ',
     subCatId: 27
   },
-  { img: 'none',
+  { img: 'tap/choi/choi-co-can-nhua-vmax-min.jpg',
     name: 'Chổi cán nhựa',
     subCatId: 27
   },
-  { img: 'none',
+  { img: 'tap/choi/unnamed.jpg',
     name: 'Chổi chà',
     subCatId: 27
   },
-  { img: 'none',
+  { img: 'tap/choi/CAYLAUNHA01.jpg',
     name: 'Bộ lau sàn 360',
     subCatId: 27
   },
-  { img: 'none',
+  { img: 'tap/choi/CAYLAUNHA07.jpg',
     name: 'Cây lau nhà',
     subCatId: 27
   },
 
-  { img: 'none',
+  { img: 'tap/san/sld-nrc-chanh-400g-24-chai-4-1.jpg',
     name: 'Nước rửa chén Sunlight',
     subCatId: 28
   },
-  { img: 'none',
+  { img: 'tap/san/rua-chen-gift-chanh-800g-1-700x467-1.jpg',
     name: 'Nước rửa chén Gift',
     subCatId: 28
   },
 
-  { img: 'none',
+  { img: 'bhld/BAOHOLAODONG06.jpg',
     name: 'Bộ đồ BHLĐ',
     subCatId: 29
   },
 
-  { img: 'none',
+  { img: 'bhld/KHAUTRANGHOATINH07.jpg',
     name: 'Khẩu trang hoạt tính',
     subCatId: 30
   },
-  { img: 'none',
+  { img: 'bhld/KHAUTRANGHOATINH05.jpg',
     name: 'Tấm than hoạt tính',
     subCatId: 30
   },
-  { img: 'none',
+  { img: 'bhld/KHAUTRANGHOATINH06.jpg',
     name: 'Khẩu trang y tế',
     subCatId: 30
   },
-  { img: 'none',
+  { img: 'bhld/KHAUTRANGHOATINH09.jpg',
     name: 'Khẩu trang vải',
     subCatId: 30
   },
 
-  { img: 'none',
+  { img: 'bhld/gangtaychongcat06.jpg',
     name: 'Găng tay bảo hộ',
     subCatId: 31
   },
-  { img: 'none',
+  { img: 'bhld/GANGTAYLEN05.jpg',
     name: 'Găng tay len',
     subCatId: 31
   },
 
-  { img: 'none',
+  { img: 'bhld/chung-nhan-hop-chuan-kinh-bao-ho-lao-dong.jpg',
     name: 'Kính chống bụi',
     subCatId: 32
   },
-  { img: 'none',
-    name: 'Kính hàn',
+  { img: 'bhld/han.jpg',
+    name: 'Mặt nạ hàn',
     subCatId: 32
   }
 
@@ -809,7 +783,7 @@ var addItem = function(i) {
   });
 }
 
-// addItem(0);
+addItem(0);
 models.Item.findAll({limit:5, order:[Sequelize.fn( 'RANDOM' )],
 where: {
   [Op.or]: {subCatId: 1, subCatId: 2,subCatId: 3,subCatId: 4}
