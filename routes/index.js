@@ -66,4 +66,17 @@ router.get('/1s/:cat', function(req, res, next) {
   });
 });
 
+router.get('/2/:cat', function(req, res, next) {
+  res.render('items');
+});
+
+router.get('/2s/:cat', function(req, res, next) {
+  models.Item.findAll({where:{link: req.params.cat}}).then(cat => {
+    // models.Item.findAll({where:{subCatId: cat[0].id}}).then(item => {
+    //   res.json({catName: cat[0].name, item:item});
+    // });
+    res.json({item: cat[0]});
+  });
+});
+
 module.exports = router;
