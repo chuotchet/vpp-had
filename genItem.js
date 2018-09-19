@@ -774,6 +774,19 @@ var itemData = [
     name: 'Mặt nạ hàn',
     subCatId: 32
   }
+    ,
+    { img: 'vailau/lau.jpg',
+        name: 'Vải lau',
+        subCatId: 34
+    },
+    { img: 'vailau/laumau.jpg',
+        name: 'Vải lau màu',
+        subCatId: 34
+    },
+    { img: 'vailau/lautrang.jpg',
+        name: 'Vải lau trắng',
+        subCatId: 34
+    }
 
 ];
 
@@ -784,11 +797,11 @@ var addItem = function(i) {
 }
 
 addItem(0);
-models.Item.findAll({limit:5, order:[Sequelize.fn( 'RANDOM' )],
-where: {
-  [Op.or]: {subCatId: 1, subCatId: 2,subCatId: 3,subCatId: 4}
-}
-}).then(cat => {
-  console.log(cat);
-});
+// models.Item.findAll({limit:5, order:[Sequelize.fn( 'RANDOM' )],
+// where: {
+//   [Op.or]: {subCatId: 1, subCatId: 2,subCatId: 3,subCatId: 4}
+// }
+// }).then(cat => {
+//   console.log(cat);
+// });
 // models.Item.drop();

@@ -9,7 +9,10 @@ var catData = [{
   name: 'Tạp Phẩm'
 },{
   name: 'Đồ Bảo Hộ Lao Động'
-}]
+},{
+    name: 'Vải Lau'
+}
+]
 
 
 var subCatData = [
@@ -147,7 +150,11 @@ var subCatData = [
   {
     name: 'Thiết bị bảo hộ khác',
     catId: 4
-  }
+  },
+    {
+        name: 'Vải lau',
+        catId: 5
+    }
 ];
 
 var addCat = function(i) {
